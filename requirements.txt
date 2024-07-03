@@ -1,0 +1,15 @@
+h5py==3.10.0
+matplotlib==3.8.0
+nibabel==5.1.0
+numpy
+opencv-python==4.8.1.78
+Pillow==9.4.0
+PyYAML==6.0.1
+scikit-image==0.22.0
+scipy==1.11.3
+SimpleITK==2.3.0
+torch==2.0.1
+torchvision==0.15.2
+yacs==0.1.8
+tqdm
+medpy==0.5.1
