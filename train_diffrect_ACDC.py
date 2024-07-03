@@ -81,13 +81,16 @@ def patients_to_slices(dataset, patiens_num):
             "140": 1312,
         }
     elif 'Task05' in dataset:
-        assert args.num_classes == 3
+        assert args.num_classes == 3, "Task05 only has 3 classes"
         if 'split1' in dataset:
             ref_dict = {'2': 30}
         elif 'split2' in dataset:
             ref_dict = {'2': 40}
-    elif 'mrseg19' in dataset:
-        ref_dict = {'7': 103}
+    elif 'mscmrseg19' in dataset:
+        if 'split1' in dataset:
+            ref_dict = {'7': 110}
+        elif 'split2' in dataset:
+            ref_dict = {'7': 103}
     else:
         raise NotImplementedError
     return ref_dict[str(patiens_num)]
