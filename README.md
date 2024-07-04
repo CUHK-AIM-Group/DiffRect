@@ -21,7 +21,7 @@ Here we provide setup, training, and evaluation scripts.
 
 ### Installation
 
-Prepare the conda environment for most with the following command:
+Prepare the conda environment for DiffRect with the following command:
 ```bash
 git clone https://github.com/CUHK-AIM-Group/DiffRect
 cd DiffRect
