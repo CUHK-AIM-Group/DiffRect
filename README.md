@@ -23,9 +23,12 @@ Here we provide setup, training, and evaluation scripts.
 
 Prepare the conda environment for most with the following command:
 ```bash
+git clone https://github.com/CUHK-AIM-Group/DiffRect
+cd DiffRect
 conda create -n diffrect python=3.10
 conda activate diffrect
 pip install -r requirements.txt
+mkdir datasets
 ```
 
 ### Data preparation
