@@ -2,8 +2,10 @@
 
 :pushpin: This is an official PyTorch implementation of **[MICCAI 2024]** - DiffRect: Latent Diffusion Label Rectification for Semi-supervised Medical Image Segmentation
 
-> [**DiffRect: Latent Diffusion Label Rectification for Semi-supervised Medical Image Segmentation**]()<br>
+> [**DiffRect: Latent Diffusion Label Rectification for Semi-supervised Medical Image Segmentation**](https://arxiv.org/abs/2407.09918)<br>
 > [Xinyu Liu](https://xinyuliu-jeffrey.github.io/), [Wuyang Li](https://wymancv.github.io/wuyang.github.io/), [Yixuan Yuan](http://www.ee.cuhk.edu.hk/~yxyuan/)<br>The Chinese Univerisity of Hong Kong
+
+[paper](https://arxiv.org/abs/2407.09918)
 
 We propose DiffRect, a diffusion-based framework for semi-supervised medical image segmentation. It comprises two modules: the LCC aims to calibrate the biased relationship between classes in pseudo labels by learning category-wise correlation, and the LFR models the consecutive transportations between coarse to fine and fine to precise distributions of the pseudo labels accurately with latent diffusion.
 
@@ -13,7 +15,7 @@ We propose DiffRect, a diffusion-based framework for semi-supervised medical ima
 
 ## News
 
-**[2024.7]** :newspaper: Code and pre-trained models of DiffRect are released.
+**[2024.7]** :newspaper: Code and paper of DiffRect are released.
 
 ## Get Started
 
@@ -117,7 +119,7 @@ CUDA_VISIBLE_DEVICES=0 python test_2D.py --ckpt ./logs/ACDC/diffrect_1_labeled/u
 
 ## Model Zoo
 
-Coming soon..
+To be released
 
 ## Citation
 
