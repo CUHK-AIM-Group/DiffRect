@@ -97,7 +97,7 @@ datasets/
 │   └── val.list
 ```
 
-For MS-CMRSEG19 and Task05, we report the results of the average of the two random splits.
+**Note**: For MS-CMRSEG19 and Task05, the datasets are split into training and validation only. We report the averaged results on the validation sets of the two random splits.
 
 **Note**: The data must be used for research purposes only and in accordance with the conditions set by the original data owners. We may disable the download link for our preprocessed data if requested by the original owners.
 
