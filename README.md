@@ -37,9 +37,11 @@ mkdir datasets
 
 ACDC: Download from [ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC).
 
-MS-CMRSEG19: Download from [official link](https://zmiclab.github.io/zxh/0/mscmrseg19/) or directly use our preprocessed data at [onedrive](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155195604_link_cuhk_edu_hk/Eh0O786sCE1KuaASgpxYmj0ByM-Vqwlz3MqPdbD62Fg3KA?e=U7CltC).
+MS-CMRSEG19: Download from [official link](https://zmiclab.github.io/zxh/0/mscmrseg19/).
 
-Task05 Prostate: Download from [official link](http://medicaldecathlon.com/) or directly use our preprocessed data at [onedrive](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155195604_link_cuhk_edu_hk/Eh0O786sCE1KuaASgpxYmj0ByM-Vqwlz3MqPdbD62Fg3KA?e=U7CltC).
+Task05 Prostate: Download from [official link](http://medicaldecathlon.com/).
+
+For MS-CMRSEG19 and Task05, we also provide our preprocessed data at [HF dataset link](https://huggingface.co/datasets/jeffrey423/diffrect).
 
 Make your data in the following structure:
 ```
